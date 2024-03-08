@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+
+*{padding: 0;
+border: 0;
+margin: 0;
+font-family: Archivo;
+list-style: none;
+}
+.divJordan{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.frete{
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cabecalho{
+    
+    background-image:url(assets/image-michael-jordan.svg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 300px;
+    text-align: left;
+    margin-top: 20px;
+    line-height:25.52px;
+}
+
+.cabecalhoTitulo{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.listaProdutos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;   
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    padding:10px ;
+}
+
+figure{
+    display: block;
+    text-align: center;
+    background: #F3F7FF;
+}
+
+.apresentacao{
+    margin: 50px;
+    text-align: center;   
+}
+
+.tenisJordan{
+    color:#7CA2F4;
+    font-weight: 17;
+}
+
